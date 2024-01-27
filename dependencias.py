@@ -31,6 +31,7 @@ def insert_user(email, username, password):
 
     return db.put({'key': email, 'username': username, 'password': password, 'date_joined': date_joined})
 
+#insert_user('edrc_1@outlook.com', 'admin', 'Qan40646')
 
 def fetch_users():
     """
